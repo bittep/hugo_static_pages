@@ -101,11 +101,11 @@ html[data-mode="dim"] .color_choice::after {
 }
 
 @font-face {
-  font-family: 'Cookie';
+  font-family: 'Metropolis';
   font-style: normal;
   font-display: swap;
   font-weight: 400;
-  src: local("Cookie-Regular"), url("../fonts/cookie-v10-latin-regular.woff") format("woff2"), url("../fonts/cookie-v10-latin-regular.woff") format("woff");
+  src: local("Metropolis Medium"), local("Metropolis-Medium"), url("../fonts/Metropolis-Medium.woff2") format("woff2"), url("../fonts/Metropolis-Medium.woff") format("woff");
 }
 
 @keyframes showMenu {
@@ -672,7 +672,7 @@ aside h3 {
 }
 
 .nav-brand {
-  font-family: "Cookie";
+  font-family: "Metropolis";
   font-size: 2em !important;
   padding-top: 0 !important;
   padding-bottom: 0 !important;
